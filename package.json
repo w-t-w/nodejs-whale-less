@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-whale-less",
+  "version": "0.0.1",
+  "description": "nodejs whale less",
+  "main": "index.js",
+  "scripts": {
+    "backend": "nodemon ./backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/w-t-w/nodejs-whale-less.git"
+  },
+  "keywords": [
+    "nodejs",
+    "whale",
+    "less"
+  ],
+  "author": "wtw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w-t-w/nodejs-whale-less/issues"
+  },
+  "homepage": "https://github.com/w-t-w/nodejs-whale-less#readme",
+  "devDependencies": {
+    "protocol-buffers": "^5.0.0"
+  }
+}

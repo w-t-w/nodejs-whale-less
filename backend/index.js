@@ -1,0 +1,2 @@
+require('./detail');
+require('./article');

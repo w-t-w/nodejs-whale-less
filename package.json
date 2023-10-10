@@ -4,7 +4,8 @@
   "description": "nodejs whale less",
   "main": "index.js",
   "scripts": {
-    "backend": "nodemon ./backend/index.js"
+    "backend": "nodemon ./backend/index.js",
+    "core": "nodemon ./core/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,12 @@
     "url": "https://github.com/w-t-w/nodejs-whale-less/issues"
   },
   "homepage": "https://github.com/w-t-w/nodejs-whale-less#readme",
-  "devDependencies": {
-    "protocol-buffers": "^5.0.0"
+  "dependencies": {
+    "easy_sock": "^0.4.1",
+    "koa": "^2.14.2",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "protocol-buffers": "^5.0.0",
+    "request": "^2.88.2"
   }
 }

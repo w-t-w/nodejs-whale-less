@@ -6,7 +6,7 @@ const PORT = 3000;
 
 (async () => {
     const framework_config_path = path.resolve(process.cwd(), './config/play/framework.js');
-    const template_path = path.resolve(process.cwd(), './config/play/template.html');
+    const template_path = path.resolve(process.cwd(), './config/play/template.tpl');
 
     const framework_config = require(framework_config_path);
 

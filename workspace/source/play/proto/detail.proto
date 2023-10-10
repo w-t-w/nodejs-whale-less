@@ -1,0 +1,30 @@
+message Detail {
+  required int32 id = 1;
+  required uint32 type = 2;
+  required string column_cover = 3;
+  required string column_title = 4;
+  required string column_subtitle = 5;
+  required string author_name = 6;
+  required string author_intro = 7;
+  required string column_intro = 8;
+  required string column_unit = 9;
+  required uint32 sub_count = 10;
+  required string update_frequency = 11;
+  required uint32 column_price = 12;
+  required uint32 column_price_market = 13;
+  repeated Article articles = 14;
+}
+
+message Article {
+  required uint32 id = 1;
+  required bool is_video_preview = 2;
+  required string article_title = 3;
+}
+
+message DetailRequest {
+  required uint32 column_id = 1;
+}
+
+message DetailResponse {
+  required Detail detail = 1;
+}
